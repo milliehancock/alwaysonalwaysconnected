@@ -36,7 +36,7 @@
         android:text="Button" />
 
     <Button
-        android:id="@+id/my_button2"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

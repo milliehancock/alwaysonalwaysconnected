@@ -13,6 +13,15 @@
         android:id="@+id/my.textview"
         />
 
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my.textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="Button" />
+
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
@@ -24,25 +33,5 @@
 
         <requestFocus />
     </EditText>
-
-    <Button
-        android:id="@+id/my_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/my.textview"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="43dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/my_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/my.textview"
-        android:layout_marginTop="23dp"
-        android:text="Button" />
 
 </RelativeLayout>
