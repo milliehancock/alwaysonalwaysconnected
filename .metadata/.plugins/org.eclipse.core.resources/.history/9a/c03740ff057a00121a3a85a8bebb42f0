@@ -29,12 +29,6 @@ public class MainActivity extends Activity implements OnClickListener {
 
     
     @Override
-	protected void onSaveInstanceState (Bundle outState) {
-		outState.putString("editText1", myEditText.getText().toString());
-		Log.v("MainActivity", "editText1:" + myEditText.getText().toString());
-	}
-    
-    @Override
 	protected void onResume() {
 		super.onResume();
 		myTextView.setText("Initial State");
