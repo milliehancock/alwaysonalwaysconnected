@@ -11,21 +11,20 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	//Variables
-	Button myButton, myButton2;
+	Button myButton;
+	Button myButton2;
 	TextView myTextView;
 	EditText myEditText;
 	
 	
     @Override
-    //When the app starts, create all of this stuff...
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     
         //Buttons... better way to handle all of this?
         myButton = (Button) this.findViewById(R.id.my_button);
-        myButton2 = (Button) this.findViewById(R.id.my_button2);
+        myButton2= (Button) this.findViewById(R.id.my_button2);
         myButton.setOnClickListener(this);
         myButton2.setOnClickListener(this);
         
@@ -34,8 +33,7 @@ public class MainActivity extends Activity implements OnClickListener {
         myEditText = (EditText) this.findViewById(R.id.editText1);
     }
 
- 
-    //Different methods for saving, resuming, and destroying based on user input
+    
     @Override
 	protected void onSaveInstanceState (Bundle outState) {
 		outState.putString("editText1", myEditText.getText().toString());
@@ -59,20 +57,12 @@ public class MainActivity extends Activity implements OnClickListener {
     
     @Override
 	public void onClick(View clickedView) {
-		
-    	//Add functionality for different button clicks
-    	switch(clickedView.getId()){
-		//Button 1
-    	case R.id.my_button:
-			if (myTextView.getVisibility() == View.VISIBLE){
-			myTextView.setVisibility(View.INVISIBLE);
-			}else{
-				myTextView.setVisibility(View.VISIBLE);
-			}
+		switch(clickedView.getId()){
+		case R.id.myButton:
+			myTextView.setText("Clicked");
 			break;
-		//Button 2
-    	case R.id.my_button2:
-			setContentView(R.layout.activity_main_2);
+		case R.id.myButton2:
+			//do stuff
 			break;
     	
 		}

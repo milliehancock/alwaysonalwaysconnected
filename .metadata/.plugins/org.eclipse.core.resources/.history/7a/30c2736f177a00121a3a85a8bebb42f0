@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	//Variables
-	Button myButton, myButton2;
+	Button myButton;
+	Button myButton2;
 	TextView myTextView;
 	EditText myEditText;
 	
@@ -62,16 +62,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		
     	//Add functionality for different button clicks
     	switch(clickedView.getId()){
-		//Button 1
-    	case R.id.my_button:
-			if (myTextView.getVisibility() == View.VISIBLE){
-			myTextView.setVisibility(View.INVISIBLE);
-			}else{
-				myTextView.setVisibility(View.VISIBLE);
-			}
+		case R.id.my_button:
+			myTextView.setText("Clicked");
 			break;
-		//Button 2
-    	case R.id.my_button2:
+		case R.id.my_button2:
 			setContentView(R.layout.activity_main_2);
 			break;
     	
