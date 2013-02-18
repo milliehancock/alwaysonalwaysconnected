@@ -2,7 +2,6 @@ package com.example.testingapp;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -23,23 +22,7 @@ public class MainActivity extends Activity implements OnClickListener {
         myButton.setOnClickListener(this);
     }
 
-    
-    @Override
-	protected void onResume() {
-		super.onResume();
-		myTextView.setText("Initial State");
-	}
-    
-    
-    @Override
-	protected void onDestroy() {
-		myTextView = null;
-		Log.v("MainActivity", "onDestroy Called");
-		super.onDestroy();
-	}
-	
-    
-    @Override
+	@Override
 	public void onClick(View clickedView) {
 		myTextView.setText("Clicked");
 	}
