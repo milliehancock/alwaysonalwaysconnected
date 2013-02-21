@@ -17,3 +17,53 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2013-02-18 18:09:29.346
 !MESSAGE Failed to load properties file for project 'MultiVerse'
+!SESSION 2013-02-21 12:48:16.184 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2013-02-21 12:48:25.772
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2013-02-21 12:48:27.422
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2013-02-21 12:48:27.422
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-02-21 12:48:27.422
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2013-02-21 12:48:27.422
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.422
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.423
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2013-02-21 12:48:27.423
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2013-02-21 12:48:27.423
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2013-02-21 12:48:27.423
+!MESSAGE OK
+
+!ENTRY org.eclipse.core.net 1 0 2013-02-21 12:48:27.452
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

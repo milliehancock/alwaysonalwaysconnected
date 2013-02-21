@@ -2,14 +2,24 @@ package com.example.alwaysonalwaysconnected.multiverse;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnClickListener {
 
+	Button myButton;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        myButton = (Button) findViewById(R.id.button1);
+        myButton.setOnClickListener(this);
     }
 
     @Override
@@ -18,5 +28,15 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+    
+    @Override
+    public void onClick(View v) {
+      Log.v("Main Activity", "button was clicked");
+      Intent i = new Intent(this,OtherActivity.class); //hey, I want to open this other Activity
+      startActivity(i);
+    }
+    
+
+    
     
 }
