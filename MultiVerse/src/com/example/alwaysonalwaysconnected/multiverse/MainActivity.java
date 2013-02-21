@@ -8,10 +8,14 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
 
 	Button myButton;
+	public static final String PASSING_DATA = "PASSING";
+	public static final String PASSING_BACK = "PASSING_BACK";
+	public static final int OTHER_ACTIVITY = 0;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +37,25 @@ public class MainActivity extends Activity implements OnClickListener {
     public void onClick(View v) {
       Log.v("Main Activity", "button was clicked");
       Intent i = new Intent(this,OtherActivity.class); //hey, I want to open this other Activity
-      startActivity(i);
+      i.putExtra(MainActivity.PASSING_DATA, "Here is the data I am passing");
+      startActivityForResult(i, OTHER_ACTIVITY);
     }
     
-
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent dataIntent){
+    	super.onActivityResult(requestCode, resultCode, dataIntent);
+    	
+    	if (requestCode == OTHER_ACTIVITY){
+    		if(resultCode == RESULT_OK){
+    		
+    			if (dataIntent.hasExtra(MainActivity.PASSING_BACK)){
+    				String message = dataIntent.getStringExtra(MainActivity.PASSING_BACK);
+    				Toast t = Toast.makeText(this, message, Toast.LENGTH_LONG);
+        			t.show();
+    			}
+    		}
+    	}
+    }
     
     
 }
