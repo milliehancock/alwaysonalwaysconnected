@@ -67,3 +67,237 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.
 
 !ENTRY org.eclipse.core.net 1 0 2013-02-21 12:48:27.452
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-02-21 16:40:23.296
+!MESSAGE Failed converting ECJ parse tree to Lombok for file /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alwaysonalwaysconnected1/MultiVerse/src/com/example/alwaysonalwaysconnected/multiverse/MainActivity.java
+!STACK 0
+java.lang.NullPointerException: returnTypeReference is mandatory
+	at lombok.ast.MethodDeclaration.astReturnTypeReference(MethodDeclaration.java:75)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitMethodDeclaration(EcjTreeConverter.java:1231)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:152)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.createNormalTypeBody(EcjTreeConverter.java:557)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitTypeDeclaration(EcjTreeConverter.java:480)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:48)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitCompilationUnitDeclaration(EcjTreeConverter.java:435)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:264)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at com.android.ide.eclipse.adt.internal.lint.EclipseLintClient$EclipseJavaParser.parseJava(EclipseLintClient.java:1128)
+	at com.android.tools.lint.client.api.JavaVisitor.visitFile(JavaVisitor.java:196)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualJavaFiles(LintDriver.java:1400)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:850)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-02-21 16:43:56.911
+!MESSAGE Failed converting ECJ parse tree to Lombok for file /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alwaysonalwaysconnected1/MultiVerse/src/com/example/alwaysonalwaysconnected/multiverse/MainActivity.java
+!STACK 0
+java.lang.NullPointerException: returnTypeReference is mandatory
+	at lombok.ast.MethodDeclaration.astReturnTypeReference(MethodDeclaration.java:75)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitMethodDeclaration(EcjTreeConverter.java:1231)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:152)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.createNormalTypeBody(EcjTreeConverter.java:557)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitTypeDeclaration(EcjTreeConverter.java:480)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:48)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitCompilationUnitDeclaration(EcjTreeConverter.java:435)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:264)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at com.android.ide.eclipse.adt.internal.lint.EclipseLintClient$EclipseJavaParser.parseJava(EclipseLintClient.java:1128)
+	at com.android.tools.lint.client.api.JavaVisitor.visitFile(JavaVisitor.java:196)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualJavaFiles(LintDriver.java:1400)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:850)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-02-21 16:57:40.050
+!MESSAGE Failed converting ECJ parse tree to Lombok for file /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alwaysonalwaysconnected1/MultiVerse/src/com/example/alwaysonalwaysconnected/multiverse/MainActivity.java
+!STACK 0
+java.lang.NullPointerException: returnTypeReference is mandatory
+	at lombok.ast.MethodDeclaration.astReturnTypeReference(MethodDeclaration.java:75)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitMethodDeclaration(EcjTreeConverter.java:1231)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:152)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.createNormalTypeBody(EcjTreeConverter.java:557)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitTypeDeclaration(EcjTreeConverter.java:480)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:48)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at lombok.ast.ecj.EcjTreeConverter.toTree(EcjTreeConverter.java:231)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:277)
+	at lombok.ast.ecj.EcjTreeConverter.fillList(EcjTreeConverter.java:247)
+	at lombok.ast.ecj.EcjTreeConverter.access$100(EcjTreeConverter.java:140)
+	at lombok.ast.ecj.EcjTreeConverter$2.visitCompilationUnitDeclaration(EcjTreeConverter.java:435)
+	at lombok.ast.ecj.EcjTreeVisitor.visitEcjNode(EcjTreeVisitor.java:264)
+	at lombok.ast.ecj.EcjTreeConverter.visit(EcjTreeConverter.java:290)
+	at com.android.ide.eclipse.adt.internal.lint.EclipseLintClient$EclipseJavaParser.parseJava(EclipseLintClient.java:1128)
+	at com.android.tools.lint.client.api.JavaVisitor.visitFile(JavaVisitor.java:196)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualJavaFiles(LintDriver.java:1400)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:850)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-02-21 17:33:06.891 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-02-21 17:33:19.242
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2013-02-21 20:30:55.019
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2013-02-21 20:30:55.019
+!MESSAGE session context was:(profile=profile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt.package,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.base,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: osgi.bundle,overlay.com.android.ide.eclipse.adt.overlay,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:30:55.019
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2013-02-21 20:32:48.317
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2013-02-21 20:32:48.317
+!MESSAGE session context was:(profile=profile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt.package,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.base,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: osgi.bundle,overlay.com.android.ide.eclipse.adt.overlay,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:32:48.317
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2013-02-21 20:33:18.855
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2013-02-21 20:33:18.855
+!MESSAGE session context was:(profile=profile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.adt.package,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.base,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: osgi.bundle,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: osgi.bundle,overlay.com.android.ide.eclipse.adt.overlay,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.adt,21.1.0.v201302060044-569685
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2013-02-21 20:33:18.855
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685
+!SESSION 2013-03-08 15:16:37.548 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-08 15:16:50.956
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-03-10 15:11:39.952 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-03-10 15:11:47.489
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 15:11:52.056
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 15:13:01.930
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alwaysonalwaysconnected1/android-project overlaps the location of another project: 'android-project'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 15:33:23.760
+!MESSAGE Failed to load properties file for project 'AOAC_Midterm_wPhoneGap'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 15:48:56.151
+!MESSAGE Failed to load properties file for project 'AOAC_MidtermV1_PhoneGap'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 15:53:50.589
+!MESSAGE Failed to load properties file for project 'AOAC_Midterm_V1_PGap'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 18:28:20.624
+!MESSAGE fileChanged: failed to find manifest package for project Main

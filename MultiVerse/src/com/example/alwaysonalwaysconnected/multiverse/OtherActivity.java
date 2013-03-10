@@ -20,6 +20,7 @@ public class OtherActivity extends Activity {
         	t.show();
         }
 	}
+	
         
     public void buttonClicked(View v){
     	Intent passingBack = new Intent();
