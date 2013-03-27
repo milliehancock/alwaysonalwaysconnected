@@ -1,9 +1,7 @@
 package com.example.alwaysonalwaysconnected.multiverse;
 
-
-//These imports from the SMS example
-
-//These imports from the MultiVerse example
+//Imports from the MultiVerse example
+import foo.bt.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -11,12 +9,17 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
+//CLASS DEF////////////////////////////////////////////////////////////////////////
 public class MainActivity extends Activity implements OnClickListener {	
 
-	    Button myButton, textSteveLOL;
+	
+	//Buttons
+	Button myButton, textSteveLOL;
 	
 
 	//MultiVerse Variables
@@ -24,10 +27,24 @@ public class MainActivity extends Activity implements OnClickListener {
 	public static final String PASSING_BACK = "PASSING_BACK";
 	public static final int OTHER_ACTIVITY = 0;
 	
+	//Bluetooth Example Variables
+	protected static final String TAG = "bluetoothdemo";
+	int REQUEST_ENABLE_BT = 1;
+	EditText main;
+	private ArrayAdapter<String> mNewDevicesArrayAdapter;
+	
+	
+
+//METHODS////////////////////////////////////////////////////////////////////////		
+//On Create----------------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        //Define Array if bluetooth devices
+        mNewDevicesArrayAdapter = new ArrayAdapter<String>(this, R.string.app_name);
+        
         
         myButton = (Button) findViewById(R.id.button1);
         myButton.setOnClickListener(this);
@@ -41,7 +58,9 @@ public class MainActivity extends Activity implements OnClickListener {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+
     
+  //On Click----------------------------------------------------------------------  
     @Override
     public void onClick(View v) {
  
@@ -66,7 +85,9 @@ public class MainActivity extends Activity implements OnClickListener {
     
     
     }
+
     
+//On Activity Result----------------------------------------------------------------------
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent dataIntent){
     	super.onActivityResult(requestCode, resultCode, dataIntent);
@@ -83,6 +104,11 @@ public class MainActivity extends Activity implements OnClickListener {
     	}
 
     }
+    
+
+//On Create----------------------------------------------------------------------
+
+    
     
 }
     

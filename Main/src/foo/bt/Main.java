@@ -18,6 +18,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class Main extends Activity {
+	
 	protected static final String TAG = "bluetoothdemo";
 	int REQUEST_ENABLE_BT = 1;
 	EditText main;
@@ -28,12 +29,14 @@ public class Main extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
         main = (EditText) findViewById(R.id.mainTextArea);
         mNewDevicesArrayAdapter = new ArrayAdapter<String>(this, R.string.app_name);
         
         // Hook up the Discover button to its handler
         Button discover = (Button) findViewById(R.id.discoverButton);
         discover.setOnClickListener(discoverButtonHandler);
+        
         
         // Hook up the ArrayAdapter to the ListView
         ListView lv = (ListView) findViewById(R.id.pairedBtDevices);

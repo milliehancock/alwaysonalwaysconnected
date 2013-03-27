@@ -301,3 +301,123 @@ Contains: /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alway
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 18:28:20.624
 !MESSAGE fileChanged: failed to find manifest package for project Main
+!SESSION 2013-03-10 20:05:46.645 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -data /Users/ameliahancock/Documents/workspace/AlwaysOnAlwaysConnected/alwaysonalwaysconnected1 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 20:05:51.687
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:07:14.488
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /Main/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:07:14.488
+!MESSAGE No valid Android XML Editor Delegate found for file /Main/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:07:33.354
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /Main/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:07:33.355
+!MESSAGE No valid Android XML Editor Delegate found for file /Main/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:10:23.481
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /MultiVerse/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:10:23.482
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+!SESSION 2013-03-10 20:12:33.112 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:12:38.021
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 20:12:39.961
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:13:21.699
+!MESSAGE No valid Android XML Editor Delegate found for file /Main/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:14:22.673
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:28:53.375
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:29:33.097
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /MultiVerse/bin/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:29:33.098
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/bin/AndroidManifest.xml [Res null, type null]
+!SESSION 2013-03-10 20:38:16.493 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-03-10 20:38:20.510
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:38:22.318
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 20:38:24.590
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-03-10 20:41:23.078
+!MESSAGE Invalid ZIP archive: AndroidManifest.xml [in MultiVerse]
+!SESSION 2013-03-10 20:50:53.056 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 20:51:01.481
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-10 20:51:37.039
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MultiVerse/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:1306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-10 20:51:37.040
+!MESSAGE Resource '/MultiVerse/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:52:42.668
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /MultiVerse/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:52:42.668
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+!SESSION 2013-03-10 20:59:16.278 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_41
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ameliahancock/.eclipse_keyring -showlocation
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-10 20:59:21.574
+!MESSAGE No valid Android XML Editor Delegate found for file /MultiVerse/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-10 20:59:23.673
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-03-10 20:59:36.536
+!MESSAGE Invalid ZIP archive: AndroidManifest.xml [in MultiVerse]
